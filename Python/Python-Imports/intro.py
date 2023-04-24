@@ -23,5 +23,3 @@ print(index3)
 print(test)
 print(sys.path)
 
-
-import random
