@@ -1,0 +1,2 @@
+In this video we will be writing a quick script to automate the parsing and renaming of multiple files. Writing quick
+scripts to automate boring and repetitive tasks is a great way to learn Python and it is a great way to save time.
