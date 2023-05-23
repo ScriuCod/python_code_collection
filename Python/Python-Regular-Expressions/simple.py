@@ -32,3 +32,9 @@ pattern = re.compile(r'start', re.I)
 matches = pattern.search(sentence)
 
 print(matches)
+
+
+with open('snippets.txt', 'r') as f:
+    content = f.read()
+
+print(content)
