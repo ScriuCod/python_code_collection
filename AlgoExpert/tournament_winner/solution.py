@@ -36,3 +36,17 @@ def tournamentWinner(competitions, results):
 
     # using max function with the key parameter in aggregation with get function
     return max(winners, key=winners.get)
+
+
+# improved solution
+def tournamentWinner(competitions, results):
+    winners = {}
+    for id, result in enumerate(results):
+        winner = competitions[id][0] if result == 1 else competitions[id][1]
+        if winner not in winners:
+            winners[winner] = 3
+        winners[winner] += 3
+
+    # using max function with the key parameter in aggregation with get function
+    return max(winners, key=winners.get)
+
